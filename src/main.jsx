@@ -14,12 +14,12 @@ const router = createBrowserRouter([
     path: '/',
     element: <MainLayout />,
     children: [
-      {index:true,  element:<ProductsList/>},
-      {path:'product/:id', element:<ProductDetails/>},
-      {path:'cart', element:<Cart/>},
-      {path:'*',elment:<NotFound/>}
+      { index: true, element: <ProductsList /> },
+      { path: 'product/:id', element: <ProductDetails /> },
+      { path: 'cart', element: <Cart /> },
+      {path: '*',element: <NotFound />,}
 
-  
+
     ],
   },
 ]);
