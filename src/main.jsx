@@ -6,7 +6,7 @@ import MainLayout from './component/mainLayout/mainLayout.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ProductsList from './pages/productList';
 import ProductDetails from './pages/productDetails';
-import Cart from './pages/Cart';
+import Cart from './pages/cart';
 import NotFound from './pages/NotFound';
 
 const router = createBrowserRouter([
